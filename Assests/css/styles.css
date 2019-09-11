@@ -21,7 +21,7 @@ body {
  
   
   .block-header {
-    color: blue;
+    color: #0048ba;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
     text-align: center;
@@ -68,13 +68,22 @@ body {
  
   .row {
     display: flex;
+    
   }
   
   .column {
     flex: 33.33%;
     padding: 5px;
+    color: #0048ba;         
   }
   
+
+.column-2{
+  flex: 10%;
+  padding: 20px;
+  color: #0048ba;
+  position: center;
+}
  /*contact stuff*/
 
 
@@ -82,7 +91,7 @@ body {
  .form-group{
    position: center;
    font-size: 29px;
-   color: orangered;
+   color: #0048ba;
    background:grey;
    padding: 10px;
    border-radius: 2px;
@@ -95,7 +104,7 @@ body {
     font-size: 16px;
     font-weight: lighter;
     color:black;
-    background-color: lightblue;
+    background-color: #0048ba;
     border: 0;
     position: relative;
   }
